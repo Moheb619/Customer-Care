@@ -47,9 +47,9 @@ public class Show extends JFrame {
 	 * Create the frame.
 	 */
 	public Show(String num) throws Exception {
-		url="jdbc:mysql://localhost:3306/customer_care";
+		url="jdbc:mysql://localhost:3306/database-name";
 		uname="root";
-		pass="Abarmysql12#";
+		pass="password";
 		con=DriverManager.getConnection(url,uname,pass);
 		st=con.createStatement();
 		
